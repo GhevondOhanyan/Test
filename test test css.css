@@ -1,0 +1,666 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+     background: #E5E5E5;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content__h1{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-bottom: 23px;
+    padding-left: 95px;
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+
+.contents__bet{
+    width: 100%;
+    margin: auto;
+}
+
+.content__bet{
+    width: 1169px;
+    height: 71px;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.content__number{
+    padding: 23px 38px 24px;
+    font-size: 14px;
+    color: #3E3B4A;
+}
+
+.content__icon img{
+    width: 107px;
+    height: 35px;
+}
+
+.content__icon{
+    padding: 18px 25px 18px 0px;
+}
+
+.content__name{
+    color: #33312C;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin: 24px 55px 23px 0px;
+    width: 60px;
+}
+
+.content__stars{
+    margin-right: 63px;
+}
+
+.content__stars img{
+    width: 21.16px;
+    padding-right: 7.5px;
+}
+
+
+.content__present{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.content__present img{
+    width: 28px;
+    padding-right: 14px;
+}
+
+.content__present span{
+   padding: 23px 165px 24px 0px;
+}
+
+a{
+    color: #191925;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Montserrat;
+}
+.content__reviews a{
+    padding: 9px;
+    border: 1px solid #67BC6D;
+    border-radius: 5px;
+    margin-right: 23px;
+    text-align: center;
+    width: 125px;
+    height: 17px;
+}
+
+.content__reviews a{
+    font-weight: 700;
+}
+
+.content__overview a{
+    padding: 9px;
+    width: 83px;
+    height: 17px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    margin-right: 23px;
+    text-align: center;
+}
+
+.content__websit{
+    padding: 9px;
+    border-radius: 5px;
+    background: #E2455A;
+    text-align: center;
+    width: 100px;
+}
+
+.content__websit a{
+    color: white;
+}
+
+.content__more{
+    width: 178px;
+    height: 42px;
+    text-align: center;
+    margin: auto;
+    margin-top: 23px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    -webkit-transform: skewX(-13deg);
+    transform: skewX(-13deg);
+    background: #E5E5E5;
+    cursor: pointer;
+}
+
+.content__more button{
+    font-size: 14px;
+    color: #191925;
+    font-weight: bold;
+    padding: 12px;
+    padding-bottom: 14px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.content__more:hover{
+    background: #d4d4d4;
+}
+
+:focus{
+    outline: none;
+}
+
+/*Content 2*/
+
+.content__expert{
+    width: 1169px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 153px;
+    margin-bottom: 32px;
+}
+
+.content__ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.content__h2{
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.content__ul li{
+    margin-left: 13px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.content__ul li a{
+    color: #7A798A;
+}
+
+#li{
+    color: #5A3EC4;
+}
+
+.content__football{
+    width: 1169px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.football__concurs{
+    width: 383px;
+    height: 466px;
+}
+
+.football__row{
+    background: white;
+    width: 380px;
+    height: 225px;
+    border-radius: 7px;
+    padding: 16px;
+    margin-right: 13px;
+    margin-bottom: 16px;
+}
+
+.football__span{
+    font-size: 11px;
+    color: #5A3EC4;
+}
+
+.football__p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.football__bloc2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.football__bloc2 img{
+   width: 38px;
+}
+
+.football__info{
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.football__flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.football__cent{
+    font-size: 11px;
+    color: #C1C0CD;
+}
+
+.football__name{
+    color: #C1C0CD;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.commands__bloc3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.commands__name_logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.commands__name{
+    color: #403E51;
+    margin-left: 9px;
+}
+
+.commands__name__2{
+    margin-right: 9px;
+     color: #403E51;
+}
+
+.commands__dey{
+    font-size: 11px;
+    color: #C1C0CD;
+}
+
+.commands__game{
+    color: #403E51;
+    font-size: 18px;
+}
+
+.contents__football{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 786px;
+}
+
+.more{
+    margin-bottom: 15px;
+}
+
+@media(max-width: 1030px){
+    .content__h1{
+        font-size: 18px;
+        width: 50%;
+    }
+    
+    .content__bet{
+      width: 93%;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    
+    .content__stars{
+        width: 15%;
+        margin-right: -20px;
+    }   
+    
+    .content__present span{
+        padding: 23px 40px 24px 0px;
+    }
+    
+    .content__expert{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .content__ul{
+        padding: 0;
+    }
+    
+    .content__ul li a {
+        font-size: 16px;
+    }
+    
+    .football__concurs{
+        display: none;
+    }
+    
+    .content__football{
+       width: 94%;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center;
+    }
+    
+    .content__h2{
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 992px){
+    .content__h1{
+        font-size: 18px;
+        width: 50%;
+    }
+    
+    .content__bet{
+      width: 97%;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    
+    .content__stars{
+        width: 15%;
+        margin-right: -20px;
+    }   
+    
+    .content__present span{
+        padding: 23px 40px 24px 0px;
+    }
+    
+    .content__expert{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .content__ul{
+        padding: 0;
+    }
+    
+    .content__ul li a {
+        font-size: 16px;
+    }
+    
+    .football__concurs{
+        display: none;
+    }
+    
+    .content__football{
+       width: 97%;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center;
+    }
+    
+}
+
+@media(max-width: 768px){
+   
+    
+    .content__h1{
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .content__bet{
+        width: 95%;
+        height: 150px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+        margin-top: 20px;
+    }
+    
+    .content__stars{
+        width: 28%;
+        margin-right: -50px;
+    }  
+    
+    .content__stars img{
+        width: 12.5%;
+        padding-right: 7.5px;
+      }
+    
+    .content__present span{
+        padding: 23px 40px 24px 0px;
+      }
+    
+    .content__reviews, .content__overview,
+    .content__websit{
+        margin-top: -30px;
+    }
+    
+    .content__expert{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 55%;
+    }
+    
+    .content__football{
+       margin: 0;
+       margin-left: 20px;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center;
+    }
+    
+    .contents__football{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .football__row{
+        width: 95%;
+    }
+}
+
+@media(max-width: 576px){
+    .content__bet{
+      margin-left: 10px;
+      margin-top: 15px;
+      width: 97%;
+      height: 200px;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    
+    .content__number{
+        display: none;
+    }
+    
+    .commands__game{
+        font-size: 16px;
+    }
+    
+    .commands__name__2, .commands__name{
+        font-size: 14px;
+    }
+    
+    #commands__logo{
+        width: 30px;
+    }
+    
+    .commands__name_logo img{
+         width: 30px;
+    }
+    
+    .football__p{
+        font-size: 16px;
+    }
+    
+    .football__row{
+        width: 100%;
+        padding: 8px;
+        margin-left: -5px;
+    }
+    
+    .content__icon{
+        padding: 0;
+    }
+    
+    .content__stars{
+        display: none;
+    }
+    
+    .content__reviews{
+        padding-top: 30px;
+        padding-bottom: 35px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .content__present span{
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .content__name{
+        font-size: 14px;
+        margin: 0px;
+    }
+   
+    .content__present img{
+        padding: 0px;
+        width: 17%;
+        margin: 8px;
+        text-align: center;
+    }
+    
+   .more{
+       width: 158px;
+       margin: 0;
+       margin-bottom: 15px;
+   }
+
+   .content__more button{
+       font-size: 12px;
+   }
+
+    
+    .content__h2{
+        font-size: 15px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    
+    .content__menu{
+        width: 100%;
+    }
+    
+    .content__ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    
+    .content__ul li{
+        margin-top: 12px;
+    }
+    
+    .content__expert{
+        width: 95%;
+    }
+    
+}
